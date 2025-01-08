@@ -1,0 +1,16 @@
+quiz1. 자바에서 컴파일 명령어와 실행 명령어를 쓰시오?
+컴파일 - javac (파일명) 실행 - java (파일명)
+quiz2. 객체지향 프로그래밍 언어란?
+
+quiz3. JavaSE 프로그램의 기본 틀
+public class Hello {
+    public static void main(String[] args) {
+
+    }
+}
+quiz4. 객체지향 프로그램에서 클래스안에서 특정 기능을 처리하는 함수를 무엇이라고 하는가?
+method
+quiz5. JavaSE 프로그램에서 프로그램의 진입점이며 가장 먼저 실행되는 메서드의 이름을 쓰시오
+main
+quiz6. JVM이란 무엇인가?
+자바 프로그램을 실행해주는 프로세서
