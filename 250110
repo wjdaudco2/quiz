@@ -1,0 +1,38 @@
+1-2. 변수의 유형 중 (1)는 메서드 내부에 선언된 변수이고,
+(2)는 static 키워드로 정의된 클래스 변수이며, (3)는 클래스 내부에 정의되지만 메서드 내부에는 선언되지 않는 변수이다.
+> (1) 지역변수 (2) 클래스변수 (3)멤버변수
+변수 앞에 final 키워드를 붙이면 상수
+메소드 앞에 final 오버라이딩(재정의) 불가
+클래스 앞에 final 상속불가
+
+7. 변수 a는 어떻게 진행되는가?
+public class MyClass{
+    public static void main(String[] args) {
+        int a;
+        a = 10;
+        System.out.println("변수의 값: "+ a);
+        a = null;
+    }
+}
+> 선언 - 할당 - 출력 - null 저장
+
+9. 다음 프로그램의 실행 결과는?
+public class MyClass{
+    public static void main(String[] args) {
+    byte a = 127;
+    System.out.println(a);
+    a++;
+    System.out.println(a);
+    a++;
+    System.out.println(a);
+    a++;
+    System.out.println(a);
+> 127
+  -128 (byte타입 최대값이 127. -128로 돌아감)
+  -127
+  -126
+
+4. 다음 중 기본형(primitive type)이 아닌 것은?
+1)int 2)Byte 3)double 4)boolean
+> 2)Byte (소문자여야 함)
+
